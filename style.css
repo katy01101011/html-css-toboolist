@@ -3,9 +3,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* /RESET */
 
 body {
-    background-color: red;
+    max-width: 1200;
+    background-color: rgb(246, 248, 249);
+}
+
+.container{
+    height: 5em;
+    line-height: 5em;
+    width: 1200px;
+    margin-bottom: 40px;
+    background-color: white;
+ }
+
+ #logo {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+#titolo {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+nav {
+    background-color: white;
+    width: 800px;
+    height: 4em;
+    margin-left: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 3px, solid, rgb(246, 248, 249);
+}
+
+button {
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 1.3em;
+}
+
+#task {
+    color: white;
+    margin-left: 70px;
+    background-color: rgb(71, 173, 241);
+    border: 1px solid rgb(71, 173, 241)
+}
+
+#section {
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: lightgrey;
 }
