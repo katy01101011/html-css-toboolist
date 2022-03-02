@@ -95,12 +95,12 @@ li {
     margin-right: 10px;
 }
 
-#check {
+.check {
     color: rgb(101, 192, 169);
     border-color: rgb(101, 192, 169);
 }
 
-#cross {
+.cross {
     color: rgb(234, 66, 55);
     border-color: rgb(234, 66, 55);
 }
