@@ -15,12 +15,12 @@ body {
 .container{
     height: 5em;
     line-height: 5em;
-    width: 1200px;
+    width: 1400px;
     margin-bottom: 40px;
     background-color: white;
  }
 
- #logo {
+#logo {
     vertical-align: middle;
     margin-left: 20px;
 }
@@ -32,7 +32,7 @@ body {
 
 nav {
     background-color: white;
-    width: 800px;
+    width: 1000px;
     height: 4em;
     margin-left: 200px;
     border-top-left-radius: 10px;
@@ -41,7 +41,7 @@ nav {
 }
 
 button {
-    padding: 8px;
+    padding: 8px 16px;
     border-radius: 5px;
     margin-top: 1.3em;
 }
@@ -57,4 +57,81 @@ button {
     background-color: white;
     border: 1px solid lightgrey;
     color: lightgrey;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+#liste {
+    background-color: white;
+    margin-left: 200px;
+    width: 1000px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-color: 3px solid rgb(246, 248, 249);
+    padding-left: 4.5em;
+    padding-bottom: 3em;
+}
+
+.arrowdown {
+    width: 16px;
+    height: 15px;
+    margin-top: 2em;
+}
+
+.circle {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+    margin-right: 10px;
+}
+
+#check {
+    color: rgb(101, 192, 169);
+    border-color: rgb(101, 192, 169);
+}
+
+#cross {
+    color: rgb(234, 66, 55);
+    border-color: rgb(234, 66, 55);
+}
+
+.type {
+    color: white;
+    font-size: 13px;
+    padding: 8px 15px;
+    border-radius: 14px;
+}
+
+#blu {
+    background-color: rgb(71, 173, 241);
+}
+
+#viola {
+    background-color: rgb(156, 114, 228);
+}
+
+#turchese {
+    background-color: rgb(100, 192, 169);
+}
+
+#arancione {
+    background-color: rgb(242, 158, 51);
+}
+
+#rosa {
+    background-color: rgb(216, 99, 161);
+}
+
+#verde {
+    background-color: rgb(176, 201, 38);
 }
